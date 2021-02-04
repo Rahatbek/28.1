@@ -1,3 +1,7 @@
+package kg.megacom.childs;
+
+import kg.megacom.parents.Employee;
+
 public class Manager extends Employee {
     private boolean hasStocks;
 

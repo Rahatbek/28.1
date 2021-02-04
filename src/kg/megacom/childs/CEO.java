@@ -1,3 +1,7 @@
+package kg.megacom.childs;
+
+import kg.megacom.parents.Employee;
+
 public class CEO extends Employee {
     private boolean hasCompanyCar;
     private boolean hasStocks;
