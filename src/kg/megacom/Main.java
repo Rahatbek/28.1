@@ -26,14 +26,18 @@ public class Main {
 
         CEO albusDumbldore = new CEO("Albus Dumbledore", 85, 4000, true, true);
 
-        printDeveloperGrade(minervaMcGonagall);
+        /*printDeveloperGrade(minervaMcGonagall);
         printDeveloperGrade(doloresUmbridge);
         printDeveloperGrade(severusSnape);
         printDeveloperGrade(rolandaTryuk);
-        printDeveloperGrade(rolandaTryuk1);
+        printDeveloperGrade(rolandaTryuk1);*/
+
+        for (int i = 0; i < DeveloperGrade.values().length; i++) {
+            System.out.println(DeveloperGrade.values()[i].printPhrase());
+        }
     }
 
-    private static void printDeveloperGrade(Developer developer) {
+    /*private static void printDeveloperGrade(Developer developer) {
         switch (developer.getGrade()) {
             case JUNIOR:
                 System.out.println("I am junior developer");
@@ -50,5 +54,5 @@ public class Main {
             default:
                 System.out.println("You are trainee");
         }
-    }
+    }*/
 }
